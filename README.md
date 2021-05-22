@@ -1,16 +1,24 @@
-# flutter_covid
 
-A new Flutter application.
+# Flutter Covid-19 Tracker
+https://user-images.githubusercontent.com/61236659/119233004-4f17a380-bb27-11eb-9fcb-562131440ed6.mp4
 
-## Getting Started
+#
+**api used**
 
-This project is a starting point for a Flutter application.
+https://corona.lmao.ninja/v2/all
 
-A few resources to get you started if this is your first Flutter project:
+https://api.caw.sh/v3/covid-19/continents
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+https://corona.lmao.ninja/v2/countries/$countryName
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://api.caw.sh/v3/covid-19/historical/$countryName?lastdays=8
+
+
+## About the project
+
+This is simple covid data tracker fetching data from https://disease.sh.
+
+I used https://pub.dev/packages/pie_chart for pie charts 
+and https://pub.dev/packages/bezier_chart for bezier charts to achieve higher data transparency.
+
+
